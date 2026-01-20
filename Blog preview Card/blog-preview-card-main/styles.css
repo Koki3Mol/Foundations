@@ -1,0 +1,79 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Figtree', sans-serif;
+}
+
+
+.card {
+    background-color: white;
+    width: 320px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 0 black;
+}
+
+.card:hover {
+    box-shadow: 12px 12px 0 black;
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.blog-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.category {
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 10px;
+    font-weight: 800;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.author-avatar {
+    width: 30px;
+}
+
+.attribution {
+    margin-top: 20px;
+    font-size: 12px;
+}
+.attribution a {
+    color: hsl(240, 1%, 40%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+    color: hsl(47, 88%, 63%);
+}
+.date {
+    color: hsl(240, 1%, 40%);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
